@@ -34,9 +34,11 @@ a {
 }
 
 .home img {
+  display: block;
   width: 320px;
   max-width: 100%;
   height: auto;
+  margin: 24px auto;
   border-radius: 20px;
 }
 
