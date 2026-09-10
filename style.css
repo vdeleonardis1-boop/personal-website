@@ -1,0 +1,79 @@
+:root {
+  --background: #f5f5f7;
+  --text: #1d1d1f;
+  --blue: #0066cc;
+  --blue-hover: #004f9e;
+  --white: #ffffff;
+  --border: #d2d2d7;
+}
+body {
+  background-color: var(--background);
+  color: var(--text);
+  font-family: system-ui, sans-serif;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+h1 {
+  font-size: 48px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 28px;
+}
+
+a {
+  color: var(--blue);
+}
+.home {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.home img {
+  width: 320px;
+  max-width: 100%;
+  height: auto;
+  border-radius: 20px;
+}
+
+.page {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.page p {
+  margin-bottom: 24px;
+}
+
+.button {
+  display: inline-block;
+  background-color: var(--blue);
+  color: var(--white);
+  padding: 10px 22px;
+  margin: 8px;
+  border-radius: 24px;
+  text-decoration: none;
+}
+
+.button:hover {
+  background-color: var(--blue-hover);
+}
+
+table {
+  width: 100%;
+  margin: 24px 0;
+  background-color: var(--white);
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid var(--border);
+  padding: 12px;
+  text-align: left;
+}
